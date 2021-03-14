@@ -307,15 +307,15 @@ int main()
         }
         cout << endl;
 //
-        copy_array(v,a,N);
-        start = chrono::system_clock::now();
-        sort(a,a+N);
-        finish = chrono::system_clock::now();
-        elapsed_seconds = finish-start;
-        cout << "introSort: elapsed time = " << elapsed_seconds.count();
-        if(test_sort(a,N) == true)
-            cout << " CORECT " << endl;
-        else cout << " INCORECT "<< endl;
+//        copy_array(v,a,N);
+ //      start = chrono::system_clock::now();
+ //       sort(a,a+N);
+//         finish = chrono::system_clock::now();
+//         elapsed_seconds = finish-start;
+//         cout << "introSort: elapsed time = " << elapsed_seconds.count();
+//         if(test_sort(a,N) == true)
+//             cout << " CORECT " << endl;
+//         else cout << " INCORECT "<< endl;
         delete[] v;
         delete[] a;
     }
